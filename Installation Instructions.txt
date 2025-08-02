@@ -1,0 +1,10 @@
+This program will install Python 3.12.2 on your computer as well as following libraries:
+
+pandas
+numpy
+openpyxl
+
+To execute simply run the 'RunInstallScript.bat' file found in the main directory.
+
+You may have to run this bat file as administrator depending on your network security policies.
+To do so, right click on 'RunInstallScript.bat' and select 'Run as Administrator'. 
