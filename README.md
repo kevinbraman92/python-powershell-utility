@@ -1,7 +1,7 @@
 # python-powershell-utility
 A utility program that will install Python 3.12.2 as we well as pandas, numpy, &amp; openpyxl. 
 
-The purpose of this program is to allow non tech-savey people to quickly install Python and the necessary libraries for running data analysis and data automation scripts.
+The purpose of this program is to allow non tech-savvy people to quickly install Python and the necessary libraries for running data analysis and data automation scripts.
 
 The program's design emphasizes abstraction, aiming to simplify the initial setup and use for users and get them operational.
 
