@@ -1,6 +1,6 @@
 # Define Python version
-$pythonVersion = "3.12.2"
-$installerUrl = "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
+$pythonVersion = "3.13.7"
+$installerUrl = "https://www.python.org/ftp/python/3.13.7/python-3.13.7-amd64.exe"
 $installerPath = "$env:TEMP\python-installer.exe"
 $pythonInstallDir = "$env:ProgramFiles\Python$($pythonVersion.Replace('.', ''))"
 
@@ -51,5 +51,6 @@ if (-not $envPath.Contains($scriptsDir)) {
 }
 
 Write-Host "Python and Scripts folders added to system PATH. You may need to restart PowerShell or log out and back in for changes to take effect."
+
 
 
