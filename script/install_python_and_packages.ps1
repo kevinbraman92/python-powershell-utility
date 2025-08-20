@@ -29,11 +29,11 @@ $pythonPath = "C:\Program Files\Python312\python.exe"
 
 & "$pythonPath" -m ensurepip --upgrade
 & "$pythonPath" -m pip install --upgrade pip
-& "$pythonPath" -m pip install pandas numpy openpyxl
+& "$pythonPath" -m pip install pandas numpy openpyxl sqlalchemy
 
 # Confirm installation
 & "$pythonPath" --version
-& "$pythonPath" -c "import pandas, numpy, openpyxl; print(f'pandas: {pandas.__version__} | numpy: {numpy.__version__} | openpyxl: {openpyxl.__version__}')"
+& "$pythonPath" -c "import pandas, numpy, openpyxl, sqlalchemy; print(f'pandas: {pandas.__version__} | numpy: {numpy.__version__} | openpyxl: {openpyxl.__version__} | sqlalchemy: {sqlalchemy.__version__}')"
 
 # Define Python paths
 $pythonDir = "C:\Program Files\Python312"
@@ -51,6 +51,7 @@ if (-not $envPath.Contains($scriptsDir)) {
 }
 
 Write-Host "Python and Scripts folders added to system PATH. You may need to restart PowerShell or log out and back in for changes to take effect."
+
 
 
 
